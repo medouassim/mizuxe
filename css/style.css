@@ -1,0 +1,95 @@
+body {
+  margin-top: 100px;
+}
+
+.navbar {
+  box-shadow: 2px 2px 2px #3292a6;
+  opacity: 0.9;
+  background-color: #fff;
+}
+
+.navbar-brand img {
+  width: 50px;
+}
+
+.navbar .nav-item .nav-link {
+  font-size: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+#showcase {
+  position: relative;
+  margin-top: 105px;
+  background: url("../imgs/mountains.jpg");
+  background-repeat: no-repeat;
+  min-height: 600px;
+}
+
+#showcase img {
+  width: 500px;
+}
+
+#showcase .overlay {
+  background-color: rgba(50, 146, 166, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+#newsletter .btn {
+  background: #3292a6;
+}
+
+#why .container p {
+  width: 50%;
+  font-size: 1.2rem;
+  margin: auto;
+}
+
+#authors .container .card i {
+  display: none;
+}
+
+#authors .container .card:hover {
+  background-color: #3292a6;
+  color: white;
+}
+
+#authors .container .card:hover i {
+  display: inline;
+  color: white;
+}
+
+#authors .container .card .card-body {
+  position: relative;
+}
+
+#authors .container .card .card-body img {
+  position: relative;
+  top: -3.5rem;
+  width: 50%;
+}
+
+#authors .container .card .card-body .card-title {
+  position: relative;
+  top: -2rem;
+}
+
+#authors .container .card .card-body .text-muted {
+  position: relative;
+  top: -2rem;
+}
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px;
+  }
+  #showcase h1 {
+    font-size: 4rem;
+  }
+  .mb-resp {
+    margin-bottom: 1rem;
+  }
+}
